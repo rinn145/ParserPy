@@ -4,7 +4,7 @@ from vulnerability_analyzer import VulnerabilityAnalyzer
 
 def main():
     root = tk.Tk()
-    analyzer = VulnerabilityAnalyzer(root)
+    VulnerabilityAnalyzer(root)
     root.mainloop()
 
 
